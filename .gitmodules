@@ -1,3 +1,6 @@
 [submodule "local/phpggc"]
 	path = local/phpggc
 	url = https://github.com/ambionics/phpggc.git
+[submodule "windows/xc"]
+	path = windows/xc
+	url = https://github.com/xct/xc.git
