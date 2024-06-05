@@ -1,7 +1,5 @@
 #!/bin/bash
 
-git clone --recurse-submodules https://github.com/xct/xc.git /opt/tools/windows/xc/ 
-
 GO111MODULE=off go get golang.org/x/sys/...
 GO111MODULE=off go get golang.org/x/text/encoding/unicode
 GO111MODULE=off go get github.com/hashicorp/yamux
